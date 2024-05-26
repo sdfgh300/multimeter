@@ -11,6 +11,8 @@
 
 
 float read_voltage(uint8_t chosenPIN);
+float CalculateVoltage();
+float CalculateResistance();
 void SelectMeasurement(uint8_t);
 
 
